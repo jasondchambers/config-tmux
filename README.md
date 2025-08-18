@@ -1,5 +1,13 @@
 ## config-tmux
 
+### Pre-requisites
+
+Ensure TPM is installed as follows:
+
+    git clone https://github.com/tmux-plugins/tpm ~/.tmux/plugins/tpm
+
+### Keybindings
+
 Leader key is C-b
 
 | Key | Binding |
