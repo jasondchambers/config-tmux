@@ -17,6 +17,7 @@ Leader key is C-b
 | \<leader> - | new horizontal pane |
 | \<leader> j,k,l,h | resize pane |
 | \<leader> m | toggle maximize pane |
+| \<leader> [ | Enter copy mode, navigate with vim motions, v, then y to copy|
 | C-h,j,k,l | navigate panes (consistent with Neovim) |
 
 ### TODO
