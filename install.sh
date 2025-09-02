@@ -23,9 +23,18 @@ point_tmux_to_this_config() {
   fi
 }
 
+clone_tpm_if_necessary() {
+  if [ -d ~/.tmux/plugins/tpm ]; then
+    echo "Skipping clone of https://github.com/tmux-plugins/tpm"
+  else
+    git clone https://github.com/tmux-plugins/tpm ~/.tmux/plugins/tpm
+  fi
+}
+
 main() {
 
   if [ -e tmux.conf ]; then
+    clone_tpm_if_necessary
     point_tmux_to_this_config tmux.conf
   else
     echo "You need to run this script from within the config-tmux directory"

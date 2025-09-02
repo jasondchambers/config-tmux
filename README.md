@@ -2,7 +2,7 @@
 
 ### Pre-requisites
 
-Ensure TPM is installed as follows:
+Ensure TPM is installed as follows (this is handled automatically via the install.sh):
 
     git clone https://github.com/tmux-plugins/tpm ~/.tmux/plugins/tpm
 
