@@ -27,6 +27,7 @@ Leader key is C-b
 | **General** | |
 | \<leader> r | reload conf |
 | \<leader> [ | Enter copy mode, navigate with vim motions, v, then y to copy|
+| \<leader> g | Launch GitHub in the browser|
 | C-h,j,k,l | navigate panes (consistent with Neovim) |
 | **Panes** | |
 | \<leader> \| | new vertical pane |
