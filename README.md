@@ -34,9 +34,11 @@ Leader key is C-b
 | \<leader> - | new horizontal pane |
 | \<leader> j,k,l,h | resize pane |
 | \<leader> m | toggle maximize pane |
+| \<leader> x | Kill pane |
 | **Windows** | |
 | \<Leader> c | created                  |
 | \<Leader> w | see all panes/sessions |
+| \<leader> x | Kill window |
 | **Sessions** | |
 | \<Leader> d | detach                   |
 | \<Leader> s | switch                   |
